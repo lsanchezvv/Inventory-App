@@ -1,2 +1,2 @@
-# Front end App for Inventory App
+# Frontend App for Inventory App
 
