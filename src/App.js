@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ThemeProvider, CSSReset }  from "@chakra-ui/core"
+import { Button } from "@chakra-ui/core";
 
 const App = ({children}) => {
   return (
@@ -12,6 +13,7 @@ const App = ({children}) => {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+      <Button variantColor="teal">I just consumed some Chakra!</Button>
         </p>
         <a
           className="App-link"
