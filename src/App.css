@@ -13,6 +13,11 @@
   }
 }
 
+.Form {
+  width: 500px;
+  margin: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
