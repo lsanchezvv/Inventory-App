@@ -1,30 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { ThemeProvider, CSSReset }  from "@chakra-ui/core"
-import { Button } from "@chakra-ui/core";
+import ItemEntry from './item_entry/item-entry';
 
 const App = ({children}) => {
   return (
     <ThemeProvider>
       <CSSReset />
-      <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-      <Button variantColor="teal">I just consumed some Chakra!</Button>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      </div>
+        <div className="App">
+          <ItemEntry />
+        </div>
     </ThemeProvider>
   );
 }
